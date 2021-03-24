@@ -1,18 +1,10 @@
-body{
-    /* box-sizing: border-box; */
-    margin: 0 auto;
-
-}
-
-*{
-    box-sizing: border-box;
+    body {
+        font-family: cursive;
+        font-weight: bolder;
     
-}
-div{
-    border: solid 2px gray;
-    background-color:lightslategray;
-    text-align:center;
-    padding: 30px;
-
-
-}
+      background-color: rgb(173, 173, 173);
+    }
+    
+    *{
+      box-sizing: border-box;
+    }
