@@ -1,182 +1,128 @@
+#A {
+    background-color: rgb(72, 86, 90);
+    color: black
+}
 
-.a{
-    width:480px ;
-    height: 75px;
+#b {
+    background-color: rgb(41, 77, 97);
 }
-.b{
-    width:480px ;
-    height: 150px;
+
+#c {
+    background-color: #46393ed2;
 }
-.c{
-    width:480px ;
-    height: 125px;
+
+#d {
+    background-color: #2f4444;
 }
-.d{
-    width:480px ;
-    height: 125px;
+
+#e {
+    background-color: rgb(66, 61, 51);
 }
-.float{
-    width: 480px;
+
+#f {
+    background-color: rgb(63, 143, 83);
+    color: white
+}
+
+#g {
+    background-color: rgb(124, 165, 184);
+}
+
+#h {
+    background-color: rgb(199, 131, 154);
+}
+
+#i {
+    background-color: rgb(0, 0, 0);
+    color: rgb(13, 14, 12);
+}
+
+/* Tablet Media*/
+@media (min-width: 737px) and (max-width: 959px){
+    #A {
+        background-color: #cff7ce;
+        color: rgb(70, 90, 26);
+    }
+    
+    #b {
+        background-color: #c9b7f3;
+    }
+    
+    #c {
+        background-color: #f3c9e9;
+    }
+    
+    #d {
+        background-color: #7ea58e;
+        color: #EFF6E0;
+    }
+    
+    #e {
+        background-color: #eba99a;
+        color: #EFF6E0;
+    }
+    
+    #f {
+        background-color: #f1d1b5;
+        color: #EFF6E0;
+    }
+    
+    #g {
+        background-color: #c2c45d;
+    }
+    
+    #h {
+        background-color: #f3d6b298;
+    }
+    
+    #i {
+        background-color: #a379f2da;
+    }
 
 }
-.float div{
-    width:240px ;
-    height:250px;
-   float:left;
-   padding:70px;
+
+/* Desktop Media */
+
+@media (min-width: 960px){
+    #A {
+        background-color: rgb(116, 5, 5);
+        color: rgb(248, 248, 248);
+    }
+    
+    #b {
+        background-color: rgb(226, 184, 159);
+    }
+    
+    #c {
+        background-color: rgb(192, 180, 238);
+    }
+    
+    #d {
+        background-color: rgb(187, 228, 224);
+    }
+    
+    #e {
+        background-color: rgb(163, 133, 121);
+    }
+    
+    #f {
+        background-color: #fddafd;
+        color: #080808;
+    }
+    
+    #g {
+        background-color: rgb(153, 118, 87);
+    }
+    
+    #h {
+        background-color: rgb(127, 187, 172);
+    }
+    
+    #i {
+        background-color: #b65977;
+        color: #0e0f0d;
+    }
+
+}
+
  
-}
-.i{
-    width: 480px;
-    height: 80px;
-    clear: both;
-}
-@media screen and (  min-width:768px ){
-    .a{
-        width:960px ;
-        height: 100px;
-    }
-    main {
-        width: 960px;
-        position: absolute;
-        
-    }
-    .b{
-        width:200px ;
-        height: 600px;
-        float: left;
-        
-    
-    }
-    .style{
-        position: absolute;
-
-    }
-    main section{
-        float: left;
-
-    }
-    main div{
-        float: left;
-    }
-    
-  
-    /* .style section{
-        float: left;
-    
-    }
-    .cd {
-      
-        
-        float:left;
-       
-       
-       
-    }
-    .float{
-       
-        height:250px;
-        width: 765px;
-       float: left;
-    
-    }
-     .c , .d{
-        width:380px ;
-        height: 200px;
-        float:left;
-    }
-    
-    .float div{
-        width:190px ;
-        height:250px;
-        float: left;
-      
-      
-    }
-    .i {
-        width: 760px;
-        height: 150px;
-       
-        position: absolute;
-        left: 200px;
-        top:450px;
-    } */
-    .c{
-        width:380px ;
-        height: 200px;
-        float: left;
-    }
-    .d{
-        width:380px ;
-        height: 200px;
-        float: left;
-    }
-    /* .float{
-        width: 480px;
-    
-    }
-    .float div{
-        width:190px ;
-        height:250px;
-        display: block;
-       float:left;
-       padding:70px;
-     
-    } */
-    /* .i{
-        width: 760px;
-        height: 150px;
-        float: left;
-    } */
-    .float{
-        display: inline-flex;
-        float: left;
-    }
-    .float div{
-        width:190px ;
-        height:250px;
-        float:left;
-        display:block;
-
-    }
-    /* .e {
-
-        width:190px ;
-        height:250px;
-        float:left;
-        display:block;
-       
-    }
-    .f {
-
-        width:190px ;
-        height:250px;
-        float:left;
-        display:block;
-       
-    }
-    .g {
-
-        width:190px ;
-        height:250px;
-        float:left;
-        display:block;
-       
-    }
-    .h{
-
-        width:190px ;
-        height:250px;
-        float:left;
-        display:block;
-       
-    } */
-    .i{
-        width: 760px;
-        height: 150px;
-        float: left;
-        clear: inherit;
-    }
-}
-
-
